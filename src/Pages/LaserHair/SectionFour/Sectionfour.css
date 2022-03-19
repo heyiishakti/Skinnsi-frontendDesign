@@ -1,0 +1,78 @@
+.fourthContainer {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 700px;
+  color: #f7f7f7;
+}
+
+.fourthContainer > h1 {
+  font-size: 53px;
+  color: #e03c31;
+  padding-bottom: 20px;
+}
+
+.image {
+  position: relative;
+}
+
+.image > p {
+  position: absolute;
+  z-index: 99;
+  font-size: 23px;
+  opacity: 0.8;
+  font-weight: 550;
+  color: black;
+  top: 170px;
+  left: 60px;
+}
+
+/* 
+fifth Container */
+.fifthContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 340px;
+  background-color: #424242;
+}
+
+.headButton {
+  padding-left: 100px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+}
+
+.headButton > h4 {
+  font-size: 27px;
+  color: white;
+}
+
+.headButton > button {
+  background-color: #e03c31;
+  border: none;
+  color: white;
+  height: 45px;
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.headButton > button:hover {
+  background-color: #a3331d;
+}
+
+.roundImage {
+  border-radius: 130px;
+  padding-top: 10px;
+}
+
+.headButton > button {
+  background-color: #e03c31;
+  font-size: 15px;
+  padding-bottom: 3px;
+}

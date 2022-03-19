@@ -1,0 +1,58 @@
+.Navbar {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  height: 80px;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #ace0f0;
+  top: 0;
+  z-index: 999;
+}
+
+.Navbar.active {
+  background: white;
+}
+
+.Links {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding-right: 16.5rem;
+}
+
+.nav-links {
+  display: flex;
+  color: #e03c31;
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  color: #a3331d;
+}
+
+.LoginN {
+  display: flex;
+  flex-direction: row;
+  padding-left: 80px;
+  padding-right: 20%;
+}
+
+.dermafacial {
+  padding-left: 1.5rem;
+}
+
+.laser-hair {
+  padding-left: 3.5rem;
+}
+
+.headPhone {
+  padding-left: 20px;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}

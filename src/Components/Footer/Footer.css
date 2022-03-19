@@ -1,0 +1,50 @@
+.skinnsi {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 100%;
+  justify-content: space-around;
+  background: #ace0f0;
+}
+
+.one > img {
+  padding-top: 20px;
+}
+
+.two > h5 {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #424242;
+}
+.three > h5 {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #424242;
+}
+.four > h5 {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #424242;
+}
+.five > h5 {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #424242;
+}
+
+.five > p {
+  font-size: 15px;
+}
+.text-left {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.paraBackground {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 10px;
+  height: 30px;
+  background-color: #ace0f0;
+}
