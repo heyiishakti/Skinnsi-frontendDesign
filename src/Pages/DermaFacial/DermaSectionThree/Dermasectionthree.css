@@ -1,0 +1,38 @@
+/* // Section three */
+
+.sectionThreeD {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 230px;
+  padding-right: 230px;
+}
+
+.sectionThreeDone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+  width: 800px;
+}
+
+.sectionThreeDone {
+  padding-left: 100px;
+}
+
+.sectionThreeDtwo {
+  padding-right: 100px;
+}
+
+.sectionThreeDtwo > h1 {
+  color: #e03c31;
+  font-size: 54px;
+  line-height: 55px;
+}
+
+.sectionThreeDtwo > p {
+  font-size: 18px;
+  color: #424242;
+  line-height: 24px;
+}

@@ -1,0 +1,35 @@
+/* //Section Four */
+
+.sectionFourD {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 550px;
+  background-color: #f7f7f7;
+  padding-left: 60px;
+}
+
+.subSectionFoutD > h1 {
+  font-size: 50px;
+  color: #e03c31;
+  margin-left: 200px;
+  letter-spacing: 1px;
+}
+
+.subSectionFoutD > p {
+  font-size: 18px;
+}
+
+.subSectionFoutD > h3 {
+  font-size: 30px;
+  color: #424242;
+}
+.subSectionFoutD > img {
+  padding-top: 20x;
+}
+
+.subSectionFoutD > span {
+  color: #424242;
+  padding-left: 10px;
+  font-size: 17px;
+}

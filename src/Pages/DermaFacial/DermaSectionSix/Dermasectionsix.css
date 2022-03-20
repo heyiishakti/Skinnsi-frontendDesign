@@ -1,0 +1,70 @@
+.sectionSix {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  height: 84vh;
+  background-color: #f7f7f7;
+  margin-top: 110px;
+}
+
+.subSectionSixOne > h1 {
+  font-size: 48px;
+  color: #e03c31;
+}
+
+.subSectionSixOne > p {
+  font-size: 18.6px;
+}
+
+.subSectionSixTwo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.subSection62one {
+  background-color: #ace0f0;
+  height: 49vh;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subSection62one > h3 {
+  font-size: 28px;
+  align-self: center;
+  color: #424242;
+}
+
+.subSection62two > h3 {
+  font-size: 28px;
+  align-self: center;
+  color: #424242;
+}
+.subSection62two {
+  background-color: #ace0f0;
+  height: 49vh;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.subSectionsixImage2 {
+  height: 250px;
+  width: 500px;
+}
+
+.subSectionsixImage1 {
+  height: 250px;
+  width: 500px;
+}
+
+.spanSectionSix {
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.imgSectionSix {
+  padding-top: 10px;
+  padding-left: 30px;
+}

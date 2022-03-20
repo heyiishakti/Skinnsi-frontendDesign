@@ -7,6 +7,7 @@ import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import { useContext } from "react";
 import {Context} from "./context/Context"
+import Dermafacial from './Pages/DermaFacial/Dermafacial';
 
 function App() {
   const { user } = useContext(Context);
@@ -15,6 +16,9 @@ function App() {
       <Fragment>
       <div className="App">
         <Switch>
+          <Route path="/dermafacial">
+            <Dermafacial/>
+          </Route>
           <Route path="/login">
             {user ? <Home /> : <Login/>}
           </Route>

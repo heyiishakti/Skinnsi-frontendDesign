@@ -6,14 +6,14 @@ import { useContext } from "react";
 
 const Navbar = () => {
 
-  const { user, dispatch } = useContext(Context);
+  const { user, dispatch } = useContext(Context); 
   const handleLogout = () => {
     dispatch({ type: "LOGOUT" });
   };
 
   const [navbar, setNavbar] = useState(false);
 
-  const changeBackground = () => {
+  const changeBackground = () =>{
     if (window.scrollY >= 80) {
       setNavbar(true)
     } else {

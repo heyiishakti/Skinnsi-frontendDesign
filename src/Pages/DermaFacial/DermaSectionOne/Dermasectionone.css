@@ -1,0 +1,52 @@
+.sectionD {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: #ace0f0;
+}
+
+.navbarD {
+  margin-left: 100px;
+}
+
+.sectionD {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.subSectionDOne > h1 {
+  font-size: 64px;
+  color: #e03c31;
+  line-height: 74px;
+}
+
+.subSectionDOne > p {
+  color: #5e5e5e;
+  font-size: 18px;
+  line-height: 1px;
+  width: 398px;
+  margin-bottom: 40px;
+}
+
+.subSectionDButton {
+  background-color: #e03c31;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 8px 15px 8px 15px;
+  border-radius: 5px;
+}
+
+.subSectionDButton:hover {
+  background-color: #a3331d;
+}
+
+.subSectionDOne {
+  padding-left: 220px;
+}
+
+.subSectionDTwo {
+  padding-right: 220px;
+}
