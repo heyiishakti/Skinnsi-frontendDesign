@@ -8,7 +8,7 @@ const Dermasectionthree = () => {
       {/* // Section Three */}
             <section className='sectionThreeD'>
                 <div className='sectionThreeDone'>
-                    <ReactPlayer light='https://assets.toothsi.in/Image_webp_56ea30a76d.webp' url='https://youtu.be/jxrytYZYj1Y' width="690px" height="390px" />
+                    <ReactPlayer light='https://assets.toothsi.in/Image_webp_56ea30a76d.webp' url='https://youtu.be/jxrytYZYj1Y' width="690px" height="390px" playing />
                 </div>
                 <div className='sectionThreeDtwo'>
                     <h1>Dermafacials <br/>

@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  line-height: 20vh;
+  line-height: 0vh;
 }
 .lastOne > h1 {
   color: #e03c31;
@@ -34,5 +34,4 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 50px;
 }
